@@ -1,0 +1,52 @@
+.dark .calculadora {
+    background-color: #292a37;
+    border: 2px solid #bd92f8;
+}
+
+.dark {
+    background-color: #191b20;
+}
+
+.dark .calculadora td button {
+    background-color: #353646;
+}
+
+.dark #resultado {
+    color: #3efa71;
+    background-color: #191b20;
+}
+
+.dark .fas {
+    color: #bd92f8;
+}
+
+.container {
+    visibility: inherit;
+    background-color: red;
+    position: relative;
+}
+
+.button-off {
+    opacity: 0;
+}
+
+.button-on {
+    opacity: 1;
+}
+
+.toggle-on {
+    opacity: 0;
+}
+
+.toggle-off {
+    opacity: 1;
+}
+
+.button-off,
+.button-on {
+    transition: all 1s;
+    font-size: 3em;
+    position: absolute;
+    right: .5em;
+    top: .5em;
+}
