@@ -3,6 +3,8 @@ var operandoa;
 var operandob;
 var operacion;
 
+exports.init = init;
+
 function init() {
     //variables
     var resultado = document.getElementById('resultado');
@@ -91,9 +93,13 @@ function init() {
 
 }
 
+exports.limpiar = limpiar;
+
 function limpiar() {
     resultado.textContent = "";
 }
+
+exports.resetear = resetear;
 
 function resetear() {
     resultado.textContent = "";
@@ -102,7 +108,7 @@ function resetear() {
     operacion = "";
 }
 
-
+exports.resolver = resolver;
 
 function resolver() {
     var res = 0;

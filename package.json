@@ -1,0 +1,22 @@
+{
+    "name": "calculadora",
+    "version": "1.0.0",
+    "description": "",
+    "main": "funcionalidad.js",
+    "scripts": {
+        "test": "jest -init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/locchiato/calculadora.git"
+    },
+    "author": "Leandro Occhiato",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/locchiato/calculadora/issues"
+    },
+    "homepage": "https://github.com/locchiato/calculadora#readme",
+    "dependencies": {
+        "jest": "^27.0.6"
+    }
+}
